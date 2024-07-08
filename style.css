@@ -1,0 +1,275 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
+
+body{
+    background-color:black;
+    color:white;
+}
+
+.mainbox{
+    width:100%;
+    height:700px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/bg.jpg);
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    border-bottom: 8px solid rgba(171, 134, 134, 0.658);
+}
+
+.top-nav-bar{
+    width:80%;
+    height:100px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.top-nav-bar img{
+    width:160px;
+}
+
+.button-language{
+    background-color:transparent;
+    color:white;
+    border:1px solid rgba(255, 255, 255, 0.621);
+    border-radius:4px;
+    padding:6px 16px 6px 16px;
+    font-size:0.9rem;
+    font-family:sans-serif;
+    font-weight:550;
+    margin-right:15px;
+
+}
+
+.button-sign{
+    background-color:red;
+    color:white;
+    border-style:none;
+    border-radius:4px;
+    padding:6px 12px 6px 12px;
+    font-size:0.9rem;
+    font-family:sans-serif;
+    font-weight:550;
+
+
+}
+
+.hero-section h1{
+    font-size:2.8rem;
+    font-weight:900;
+    font-family: sans-serif;
+}
+
+.hero-section h2{
+    font-size:1.7rem;
+    font-weight:500;
+    font-family: sans-serif;
+    text-align:center;
+    margin-top:26px;
+    
+}
+.hero-section p{
+    font-size:1.3rem;
+    font-weight:500;
+    font-family: sans-serif;
+    text-align:center;
+    margin-top:25px;
+    
+}
+
+.hero-section-mail{
+    margin-top:30px;
+    text-align: center;
+}
+
+.hero-section-mail input{
+    background-color: rgba(0, 0, 0, 0.7);
+    color:rgba(255, 255, 255, 0.438);
+    width:380px;
+    height:48px;
+    font-size:1rem;
+    font-family:sans-serif;
+    font-weight:500;
+    border-style:none;
+    border:1px solid rgba(255, 255, 255, 0.315);
+    border-radius:6px;
+    padding-left:20px;
+}
+
+.hero-section-mail button{
+    margin-left:6px;
+    background-color:red;
+    color:white;
+    width:150px;
+    height:48px;
+    font-size:1.2rem;
+    font-family:sans-serif;
+    font-weight:500;
+    border-style:none;
+    border:1px solid rgba(255, 255, 255, 0.315);
+    border-radius:6px;
+}
+
+/* Netflix content 1st sections */
+
+.netflix-section1{
+    width:100%;
+    height:480px;
+    border-bottom: 8px solid rgba(171, 134, 134, 0.658);
+    background-color:black;
+    display:flex;
+    flex-direction: raw;
+    justify-content:center;
+    align-items:center;
+}
+
+.section-1content{
+    width:35%;
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+    margin-right:40px;
+}
+
+.section-1content h1{
+    font-size:3rem;
+    font-family: sans-serif;
+    font-weight:900;
+
+}
+
+.section-1content p{
+    font-size:1.4rem;
+    font-family: sans-serif;
+    font-weight:400;
+    line-height:1.9rem;
+}
+.section-1MV{
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    justify-content:end;
+    margin-left:40px;
+}
+
+.section-1MV img{
+    width:480px;
+
+}
+
+/* Netflix content 3rd sections */
+
+.netflix-section3{
+    width:100%;
+    height:480px;
+    border-bottom: 8px solid rgba(171, 134, 134, 0.658);
+    background-color:black;
+    display:flex;
+    flex-direction: raw;
+    justify-content:center;
+    align-items:center;
+}
+
+.section-3content{
+    width:35%;
+    display:flex;
+    flex-direction:column;
+    justify-content:end;
+}
+
+.section-3content h1{
+    font-size:3rem;
+    font-family: sans-serif;
+    font-weight:900;
+
+}
+
+.section-3content p{
+    font-size:1.4rem;
+    font-family: sans-serif;
+    font-weight:400;
+    line-height:1.9rem;
+}
+.section-3MV{
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+}
+
+.section-3MV img{
+    width:480px;
+
+}
+
+/* Footer main area */
+
+.footer-main{
+    width:100%;
+    height:400px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content: center;
+}
+
+.footer-anchor-a{
+    width:100%;
+    color:rgba(255, 255, 255, 0.7);
+    font-size:0.9rem;
+    font-family: sans-serif;
+    margin:12px;
+}
+
+.footer-heading{
+    display:flex;
+    justify-content: start;
+    position:relative;
+    left:170px;
+    margin-bottom:20px;
+}
+.footer-heading h2{
+    color:rgba(255, 255, 255, 0.8);
+    font-size:1.1rem;
+    font-family:sans-serif;
+    font-weight:500;
+    
+} 
+
+
+.footer-link{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.footer-box1{
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+       
+}
+
+.footer-3rd{
+    display:flex;
+    flex-direction: row;
+    /* justify-content:start; */
+    position:relative;
+    left:170px;
+    top:20px;
+    margin-right:400px;
+}
+
+.footer-3rd button{
+    background-color:transparent;
+    color:white;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    border:1px solid rgba(255, 255, 255, 0.443);
+    border-radius:4px;
+    padding:6px 22px 6px 22px;
+
+}
